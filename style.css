@@ -1,0 +1,342 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: Inter, system-ui, sans-serif ;
+    margin: 0;
+    color: #25272a;
+
+}
+header{
+    display: block;
+    
+}
+section{
+    display: block;
+}
+.header{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 250px;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.hero-container{
+    max-width: 510px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.headline{
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.logo{
+    margin-right: 15px;
+    position: relative;
+    top: 4px;
+}
+.subtitle{
+    font-size: 20px;
+    line-height: 36px;
+    min-width: 395px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paragraph{
+    margin-bottom: 30px;
+}
+p{
+    line-height: 26px;
+}
+a{
+    color: #25272a;
+    text-decoration: none;
+    
+}
+li{
+    display: list-item;
+    unicode-bidi: isolate;
+}
+footer{
+    padding: 24px 0;
+    font-size: 14px;
+}
+.login{
+    display: inline-block;
+    background-color: #ffd37f;
+    color: #25272a;
+    padding: 12px 60px;
+    font-weight: 800;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 0;
+    font-family: Inter, system-ui, sans-serif;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, .1);
+}
+.extra_login{
+    font-size: 10px;
+    color: #595959;
+    line-height: 19px;
+    margin-top: 5px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 0;
+}
+.video-container{
+    background-color: #35a7ff;
+    position: relative;
+    padding-top: 330px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+
+}
+.video{
+    background-color: #303030;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    top: -200px;
+    left: 0;
+    right: 0;
+    border-radius: 6px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, .1);
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+}
+.description-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 900px;
+    grid-gap: 40px;
+}
+.description-subtitle{
+    text-align: right;
+}
+.subtitle-big{
+    font-size: 40px;
+    line-height: 55px;
+}
+.hover-content:hover{
+    text-decoration: underline;
+}
+.section-regular{
+    padding: 50px 0;
+}
+.section-dark{
+    background-color: #212424;
+    color: #fff;
+}
+.topic-grid{
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.topic-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 30px;
+    grid-gap: 0 50px;
+    
+}
+.bullets-blue li::marker{
+
+    color: #35a7ff;
+    font-weight: 700;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    padding-left: 0;
+}
+.project-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    place-items: center;
+    min-height: 500px;
+}
+.project-list{
+    list-style: none;
+}
+.project-tittle{
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    cursor: default;
+}
+.section-offwhite{
+    background-color: #fafafa;
+}
+.flashcards-grid{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+.flashcards-highlight{
+    background-color: #35a7ff;
+    padding: 2px;
+}
+.text-center{
+    text-align: center;
+}
+.tweets{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+}
+.tweet{
+    border: 1px solid #f1f1f1;
+    padding: 15px;
+    border-radius: 4px;
+    position: relative;
+}
+.tweet-twitter{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+}
+.tweet-head{
+    display: grid;
+    grid-template-columns: 60px auto;
+    align-items: center;
+    grid-gap: 15px;
+}
+.tweet-head img{
+    border-radius: 50%;
+}
+.tweet-name{
+    margin: 0;
+    font-size: 16px;
+}
+.tweet-handle{
+    margin: 0;
+    font-weight: 700;
+    color: #626262;
+}
+.instructor-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 20px;
+}
+.instructor-pic{
+    border-radius: 50%;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+.box{
+    border: 1px solid #ededed ;
+    padding: 15px;
+    line-height: 30px;
+    border-radius: 4px;
+}
+.box h3{
+    font-size: 28px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.box-bulllets{
+    padding-left: 25px;
+    line-height: 35px;
+}
+.second-bullets li::marker{
+    color: #35a7ff;
+    font-weight: 700;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    padding-left: 0;
+}
+.modern-pricing{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 20px;
+}
+.pricing-subtitle{
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.final-cta{
+    padding: 50px 0;
+    background-color: #35a7ff;
+    text-align: center;
+}
+.final-cta-subtitle{
+    max-width:600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.final-cta-subtitle span{
+    background-color: #212424;
+    color: #35a7ff;
+    padding: 0 0 4px 0;
+}
+.final-cta-p{
+    margin-bottom: 40px;
+}
+.other-courses{
+    margin-bottom: 40px;
+}
+.course-entry-container{
+    margin-top: 40px;
+}
+.other-course{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    place-items: center;
+}
+.footer .item{
+    padding: 0 10px;
+    text-align: center;
+}
+.footer .section{
+    display: flex;
+    padding: 10px 0;
+}
+@media (max-width: 925px){
+    .description-grid{
+        grid-gap: 0;
+    }
+    .mobile-grid-break{
+        grid-template-columns: 1fr !important;
+    }
+    .description-subtitle{
+        text-align: left;
+        padding: 0 20px;
+        line-height: 50px;
+        letter-spacing: -.2px;
+        margin-bottom: 10px;
+    }
+    .mobile-br-hide{
+        display: none;
+    }
+    .mobile-space-show{
+        display: inline-block;
+    }
+    .project-grid{
+        grid-gap: 0;
+    }
+    .mobile-reverse-order{
+        order: -1;
+    }
+}
