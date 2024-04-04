@@ -340,3 +340,17 @@ footer{
         order: -1;
     }
 }
+@media (max-width: 600px){
+    .flashcards-grid{
+        place-items: center;
+    }
+    .mobile-grid-break-sm{
+        grid-template-columns: 1fr !important;
+    }
+    .mobile-reverse-order{
+        order: -1;
+    }
+    .subtitle-big{
+        font-size: 36px;
+    }
+}
